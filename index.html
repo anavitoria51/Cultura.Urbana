@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cultura Urbana</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="container d-flex justify-content-between align-items-center">
+      <div class="logo-container">
+        <img src="img/logo1.png" alt="Logotipo Cultura Urbana" class="logo-pequena" loading="lazy" />
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#biografias">Biografias</a></li>
+        <li class="nav-item"><a class="nav-link" href="#musicasdestaque">Músicas Destaque</a></li>
+        <li class="nav-item"><a class="nav-link" href="#correio">Correio</a></li>
+      </ul>
+      <div id="acessibilidade" class="menu-acessibilidade">
+        <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">acessibilidade</button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+          <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+          <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+          <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i
+              class="bi bi-shadows"></i></button>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="container-fluid my-3">
+    <section id="inicio" class="my-2">
+      <div class="inicio-fundo">
+        <div class="esquerda-conteudo">
+          <h1 class="display-4">Bem-vindo à Cultura Urbana</h1>
+          <p class="lead">Um espaço dedicado aos artistas que transformam o som.</p> <a href="#biografias"
+            class="botao-inicio">Conheça os artistas</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <section id="biografias" tabindex="0" aria-label="Seção de biografias de artistas" class="my-5">
+    <h2 class="text-center pt-5">Biografias</h2>
+    <div class="container p-3 mt-3 fundo-biografias">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Mc-Kevin Foto.jpeg" class="img-fluid rounded mb-3" alt="MC Kevin" />
+            <h3>MC Kevin</h3>
+            <p>MC Kevin foi um cantor de funk nascido em São Paulo em 1998. Ganhou destaque com músicas que falavam
+              sobre
+              a vida na periferia, superação e ostentação. Ficou famoso por hits como “Cavalo de Troia” e “Pra Inveja É
+              Tchau”. Morreu tragicamente em 2021, aos 23 anos, deixando um legado marcante no cenário do funk
+              brasileiro.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Mc-Paiva Foto.jpeg" class="img-fluid rounded mb-3" alt="MC Paiva" />
+            <h3>MC Paiva</h3>
+            <p>MC Paiva é um cantor de funk nascido em São José dos Campos, em 2002. Começou a carreira após ser
+              descoberto pela produtora Love Funk e ficou conhecido por músicas como “Casei com a Putaria” e “Bandido
+              Não
+              Dança”. Antes da fama, trabalhava como chapeiro. Hoje, é um dos nomes fortes do funk ostentação, com
+              milhões
+              de fãs e uma trajetória marcada por superação e sucesso.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Veigh Foto.jpeg" class="img-fluid rounded mb-3" alt="Veigh Supernova" />
+            <h3>Veigh</h3>
+            <p>Veigh é um cantor de trap nascido em Itapevi, São Paulo, em 2001. Começou a carreira aos 17 anos e se
+              destacou com músicas como “Novo Balanço” e “Londres Freestyle”. Em 2023, seu álbum Dos Prédios Deluxe
+              bateu
+              recordes no Spotify, consolidando seu nome como um dos principais da cena trap nacional. Suas letras
+              refletem vivências da quebrada com estilo e autenticidade.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Mc-Hariel Foto.jpeg" class="img-fluid rounded mb-3" alt="MC Hariel" />
+            <h3>MC Hariel</h3>
+            <p>MC Hariel é um cantor de funk nascido em São Paulo em 1997. Começou a cantar ainda criança e se destacou
+              com músicas que misturam consciência social e vivência da periferia, como “Lei do Retorno” e “Ilusão
+              (Cracolândia)”. Com milhões de fãs e álbuns de sucesso, se tornou um dos principais nomes do funk
+              paulista,
+              conhecido por suas letras autênticas e engajadas.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Sidoka Foto.jpeg" class="img-fluid rounded mb-3" alt="Sidoka" />
+            <h3>Sidoka</h3>
+            <p>Sidoka é um rapper nascido em Belo Horizonte em 1998. Começou sua carreira no SoundCloud e ganhou
+              destaque
+              nacional em 2018 com a música “UFA”, ao lado de Djonga. Com hits como “Petalaz” e “Porche”, se tornou um
+              dos
+              principais nomes do trap brasileiro, conhecido por seu estilo único, autenticidade e influência na cena
+              musical.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="img/Hungria Foto.jpeg" class="img-fluid rounded mb-3" alt="Hungria" />
+            <h3>Hungria</h3>
+            <p>Hungria é um rapper nascido em Ceilândia, Distrito Federal, em 1991. Começou a carreira ainda jovem e
+              ganhou destaque com músicas como “Bens Materiais” e “Lembranças”. Suas letras misturam superação,
+              ostentação
+              e realidade das ruas. Hoje, é um dos principais nomes do rap nacional, com milhões de fãs e uma trajetória
+              marcada pela autenticidade e sucesso.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="musicasdestaque" class="my-5">
+    <h2>Músicas em Destaque</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h4>MC Kevin</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=JXvZgZzYJZg" target="_blank">Cavalo De Tróia</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Z7rZzKXKZzI" target="_blank">Veracruz</a></li>
+          <li><a href="https://youtu.be/xhjbq7_IbnY?si=bri8GcsLuHkQhJkN" target="_blank">Pra Inveja é Tchau</a></li>
+          <li><a href="https://youtu.be/lt7F3ahxyfM?si=YWo09JMZ-oFt3Wae" target="_blank">Opção</a></li>
+          <li><a href="https://youtu.be/iTkgZoAD4hA?si=nX1FN_ELtq4fJAVt" target="_blank">Pula Catraca</a></li>
+          <li><a href="https://youtu.be/7YgYGJre44U?si=oIxb4r70dRV8__xn" target="_blank">Pandemia</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>MC Paiva</h4>
+        <ul>
+          <li><a href="https://youtu.be/WjDCg41Yfl8?si=BAY4CpXc6SnQWTul" target="_blank">Fui Mlk</a></li>
+          <li><a href="https://youtu.be/Lknozq6eO-g?si=g5IjBL6eSzeoRLmA" target="_blank">Meia Noite</a></li>
+          <li><a href="https://youtu.be/vwDB4EjIo5s?si=AjfjCz05ZwOO40uI" target="_blank">Givenchy</a></li>
+          <li><a href="https://youtu.be/n543yKUpZnw?si=vDrDAEX9CYbbxmRJ" target="_blank">Mel e Skunk</a></li>
+          <li><a href="https://youtu.be/v8PeMQaMu0c?si=eAGR3gWao2Q6--Pi" target="_blank">Ta 3 Ta Lindo</a></li>
+          <li><a href="https://youtu.be/5Q6GjU8Qd-4?si=Fywb9-1R1XhbKxJW" target="_blank">Fala Na Cara</a></li>
+        </ul>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Veigh</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=VzZzXzZzNzB" target="_blank">Novo Balanço</a></li>
+          <li><a href="https://youtu.be/KQoZMAuFhww?si=gFUwftXu1CUDhxJ8" target="_blank">Mônaco</a></li>
+          <li><a href="https://youtu.be/S9hk6z530cs?si=qppXgttUJRZUPSee" target="_blank">Bolsa De Ombro</a></li>
+          <li><a href="https://youtu.be/3JeHfhW9uWU?si=AHHZ3CGsyy6nAnxQ" target="_blank">Artista Genérico</a></li>
+          <li><a href="https://youtu.be/eyb10WuPaME?si=cE-Mis9B--geVEQK" target="_blank">Clickbait</a></li>
+          <li><a href="https://youtu.be/l54a1O53ZiA?si=1zuHVrM6Xbn_G1gX" target="_blank">Freestyle</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>MC Hariel</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=NzZzXzZzNzD" target="_blank">Cracolandia</a></li>
+          <li><a href="https://www.youtube.com/watch?v=OzZzXzZzNzE" target="_blank">Lei da Vida</a></li>
+          <li><a href="https://youtu.be/1hZoFjsGE70?si=GJSObDl874682TXh" target="_blank">Salve Jorge</a></li>
+          <li><a href="https://youtu.be/W7JI_SQaXpU?si=WBUAFJmeX_5rZug4" target="_blank">Espelho</a></li>
+          <li><a href="https://youtu.be/HOug-9YSxsg?si=RiSlirfUlxomQ5nv" target="_blank">4M no Toque</a></li>
+          <li><a href="https://youtu.be/22jYMcAwQjw?si=E3EmulaopiEniEn1" target="_blank">Vou Buscar</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Sidoka</h4>
+        <ul>
+          <li><a href="https://youtu.be/eN-gmJ5_ans?si=RkQDSMQUiDK8olrx" target="_blank">Desfrutar</a></li>
+          <li><a href="https://youtu.be/68yjUWmQIP0?si=_y0505Nqq7jivmIp" target="_blank">Titular</a></li>
+          <li><a href="https://youtu.be/IHWUBDevRTE?si=nLirs2v5j4lkJP_M" target="_blank">Louis V</a></li>
+          <li><a href="https://youtu.be/_7iIYAVeAvA?si=HejfQVglFUBqwo4x" target="_blank">Inevitavel</a></li>
+          <li><a href="https://youtu.be/LdIKmwnLArk?si=DMzRhB9ZdAr15-Dd" target="_blank">Porsher</a></li>
+          <li><a href="https://youtu.be/mWQsiK0hAxI?si=rai4KcexerP07_TP" target="_blank">Quadro</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Hungria</h4>
+        <ul>
+          <li><a href="https://youtu.be/wNN-Jdk9Q8Y?si=Fh04MyTZB-2hJLaq" target="_blank">Dubai</a></li>
+          <li><a href="https://youtu.be/i2RUUt21jE0?si=mG786Tt8rMwlzoDp" target="_blank">Coração de Aço</a></li>
+          <li><a href="https://youtu.be/x021bFy1DOI?si=gsXxr37N5eIslTs1" target="_blank">Cama Casal</a></li>
+          <li><a href="https://youtu.be/iZq0u3quAqo?si=q_7ZH70Eu9QXnfZr" target="_blank">Amor e Fé</a></li>
+          <li><a href="https://youtu.be/RCrJ-s0hIO8?si=G9NUWvecOb8ui6gT" target="_blank">Carruagem</a></li>
+          <li><a href="https://youtu.be/ySCAq0EabOs?si=tplkzT9VaBo3NKk3" target="_blank">Zorro do Asfalto</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="correio" class="my-5">
+    <h2>Correio</h2>
+    <div class="correio-container">
+      <p class="correio-texto">Tem alguma dúvida, sugestão ou comentário sobre os artistas? Escreva aqui:</p>
+      <form>
+        <textarea class="form-control correio-textarea" rows="5" placeholder="Digite sua mensagem..."></textarea>
+        <button type="submit" class="botao-inicio mt-3">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer class="footer-final">
+    <p class="fst-italic">Acesse nossas redes:</p>
+    <div class="icones-redes">
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-tiktok"></i>
+    </div>
+    <p class="mt-3">Projeto fictício sem fins comerciais. Desenvolvido por fernadezzx_.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+  --cor-principal: #1ED760;
+  --laranja-claro: #1ED760;
+  --alto-contraste-fundo: #2e2828;
+  --alto-contraste-texto: #2cc329;
+  --alto-contraste-link: #e6efe9;
+  --cor-secundaria: #F5F5F5;
+  --verde-claro: #8df1b0;
+  --verde-claro: #8df1b0;
+  --cinza-escuro: #eee5e5;
+}
+
+.inicio-fundo {
+    background-image: url('img/logo2.png');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+body {
+   font-family: 'Inter', sans-serif;
+  background-color: var(--cor-secundaria);
+  color: var(--branco);
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--cor-secundaria);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid var(--cor-principal);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-pequena {
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+.nav-link {
+  color: var(--cor-principal);
+  font-weight: 500;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--branco);
+}
+
+.inicio-fundo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+  background-color: var(--cinza-claro);
+  border-radius: 40px;
+  width: 100%;
+}
+
+.esquerda-conteudo {
+  flex: 1;
+  max-width: 600px;
+  color: var(--branco);
+  text-align: left;
+}
+
+.imagem-direita {
+  flex: 1;
+  max-width: 500px;
+  height: auto;
+}
+
+.imagem-direita img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.display-4 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  color: var(--cor-principal);
+  text-shadow: 2px 2px #ccc;
+  letter-spacing: 1px;
+  font-family: 'Anton', sans-serif;
+}
+
+.botao-inicio {
+  background-color: var(--cor-principal);
+  border: none;
+  border-radius: 30px;
+  padding: 0.8em 2em;
+  font-weight: 600;
+  color: var(--cor-secundaria);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-inicio:hover {
+  background-color: #4ae339;
+}
+
+section {
+  padding: 5rem 2rem;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: var(--cor-principal);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Anton', sans-serif;
+}
+
+#biografias {
+  background-color: var(--cor-secundaria);
+  margin-top: 4rem;
+}
+
+
+#biografias .card {
+  background-color: var(--cinza-claro);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 2rem;
+  color: var(--branco);
+}
+
+
+#biografias h3 {
+  font-weight: 600;
+  color: var(--cor-principal);
+  margin-bottom: 0.5rem;
+  font-family: 'Anton', sans-serif;
+}
+
+#biografias p {
+  font-size: 1rem;
+  color: #2cc329;
+}
+
+#musicasdestaque {
+  background-color: var(--cinza-claro);
+  text-align: center;
+}
+
+#musicasdestaque .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#musicasdestaque .col-md-6 {
+  text-align: center;
+}
+
+#musicasdestaque h4 {
+  font-weight: 600;
+  color: var(--cor-principal);
+  margin-bottom: 1rem;
+  font-family: 'Anton', sans-serif;
+}
+
+#musicasdestaque ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+}
+
+#musicasdestaque li {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+#musicasdestaque a {
+  color: var(--cor-principal);
+  text-decoration: none;
+  font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#musicasdestaque a:hover {
+  color: var(--branco);
+  text-decoration: underline;
+}
+
+
+#correio {
+  background-color: var(--cinza-claro);
+  border-radius: 30px;
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.correio-container {
+  background-color: var(--cinza-escuro);
+  padding: 2rem;
+  border-radius: 15px;
+}
+.footer-final {
+  background-color: var(--cinza-claro);
+  color: var(--branco);
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-final i {
+  font-size: 1.5rem;
+  color: var(--cor-principal);
+  transition: color 0.3s ease;
+}
+
+.footer-final p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.menu-acessibilidade {
+  position: fixed;
+  top: 2rem;
+  right: 20px;
+  z-index: 1000;
+}
+
+.rotacao-botao {
+  transform: rotate(-90deg);
+  transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+  margin-bottom: 5px;
+}
+
+.apresenta-lista {
+  display: none;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste #culturaurbana {
+    background: none;
+}
+.alto-contraste #biografias {
+  background-color: var(--alto-contraste-fundo);
+  color: var(--alto-contraste-texto);
+
+  
+
+}
+.alto-contraste #musicasdestaque {
+  background-color: var(--alto-contraste-fundo);
+}
+
+
+
+
+.alto-contraste #correio,
+.alto-contraste .correio-container,
+.alto-contraste .footer-final {
+  background-color: var(--alto-contraste-fundo);
+  color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .form-control {
+  background-color: #a5deba; 
+  color: var(--alto-contraste-texto); 
+  border: 1px solid var(--alto-contraste-link); 
+}
+
+#correio p {
+  font-size: 1rem;
+  color: #2cc329;
+}
+
+
+
+
+
+
